@@ -26,7 +26,7 @@ body {
 }
 /* change the color to contrast the background */
 
-.header section {
+.header nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -34,11 +34,11 @@ body {
   font-size: 25px;
 }
 
-.header section ul {
+.header nav ul {
   list-style-type: none;
 }
 
-.header section ul li {
+.header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
@@ -88,23 +88,17 @@ p {
   background-color: #2589bd;
 }
 
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
+.benefit {
   margin-bottom: 32px;
   color: #ffffff;
 }  /*Grouped them together as they share the same codes*/
 
-.benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3 {
+.benefit h3 {
   margin-bottom: 10px;
   text-align: center;
 } /*Grouped them together as they share the same codes*/
 
-.benefit-lead img,
-.benefit-brand img,
-.benefit-cost img {
+.benefit img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
